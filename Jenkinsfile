@@ -10,7 +10,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Replace with your actual GitHub repo
-                git url: 'https://github.com/your-username/your-nodejs-repo.git', branch: 'main'
+                git url: 'https://github.com/Anishkarlekar2002/p4_Q2.git', branch: 'main'
             }
         }
 
